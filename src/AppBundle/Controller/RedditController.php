@@ -13,7 +13,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class RedditController extends Controller{
   /**
-   * @Route("reddit-list", name="githut")
+   * @Route("reddit-list", name="reddit")
    */
   public function listAction()
   {

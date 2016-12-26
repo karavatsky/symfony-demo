@@ -20,4 +20,11 @@ class GitHutController extends Controller {
   {
     return $this->render('githut/index.html.twig');
   }
+
+  public function profileAction(Request $request) {
+    $properties = [
+      'avatar_url' => 'll',
+    ];
+    return $this->render('githut/profile.html.twig', $properties);
+  }
 }
